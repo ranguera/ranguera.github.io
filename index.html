@@ -1,19 +1,1 @@
-<h1>MANDANGA</h1>
 
-<h2>Graphics</h2>
-<ul>
-<li>GPU instancing funciona quan l'objecte no és estàtic i la mesh és la mateixa.</li>
-<li>Ojo quan molts objectes diferents comparteixen la mateixa textura.</li>
-<li>També sembla que es lia amb meshes amb més d'un material.</li>
-<li>Quan hem de canviar un color d'un material amb gpu instancing, s'ha de fer amb property block.</li>
-<li>Quan s'instancien objectes estàtics on the fly, cal cridar staticbatching combine.</li>
-<li>El shader per defecte sembla que no fa tant instancing com un de fet manual que hi ha d'exemple.</li>
-<li>Objectes amb més d'un mat creen un draw call per mat.</li>
-</ul>
-
-<h2>VR</h2>
-<ul>
-<li>Per posar una UI en VR amb objectes 3D pel mig, canviar a screen space camera, posar-la on vulguis amb el plane distance, i després canviar a world space i es quedarà al lloc on era, adaptant l'escala automàticament.</li>
-<li>Si no hi ha objectes pel mig, world space i ya</li>
-<li>Per fer servir el teclat del sistema amb quest, hi ha un flag a ovrcamerarig per fer enable.</li>
-</ul>
